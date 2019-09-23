@@ -37,8 +37,13 @@ const MORSE_TABLE = {
     '-----':  '0',
 };
 
+
 function decode(expr) {
-    // write your solution here
+  expr.split(`*`) //splitting to words
+  .filter((element) => element) //removing empty strings
+  .map((element) => {
+    
+  })
 }
 
 module.exports = {
